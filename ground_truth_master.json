@@ -1,0 +1,499 @@
+{
+  "bo_ho_so": "HS-MAU-2026-0456",
+  "mo_ta": "Bộ tài liệu đặc thù ngân hàng (nhóm B) phục vụ kiểm thử AI-OCR. Toàn bộ dữ liệu là GIẢ ĐỊNH, không tương ứng với bất kỳ cá nhân, tổ chức hay hồ sơ có thật nào.",
+  "loai_tai_san_bao_dam": "Bất động sản (quyền sử dụng đất và nhà ở gắn liền với đất)",
+  "luu_y_doi_chieu": [
+    "Địa chỉ TÀI SẢN được ghi theo Giấy chứng nhận cấp năm 2015, còn theo địa giới hành chính cũ (có cấp quận). Địa chỉ THƯỜNG TRÚ của các bên trên tài liệu lập năm 2026 ghi theo địa giới hiện hành (không còn cấp quận). Đây là tình huống có thật, dùng để kiểm thử quy tắc chuẩn hóa địa chỉ trước khi so khớp – KHÔNG phải lỗi dữ liệu.",
+    "Số tiền bằng số và bằng chữ trong bộ này luôn khớp nhau; các trường hợp cố ý sai lệch thuộc bộ kiểm thử đối chiếu riêng, không nằm trong bộ này."
+  ],
+  "tai_lieu": [
+    {
+      "ma": "B1",
+      "loai_tai_lieu": "HOP_DONG_BAO_DAM",
+      "ten_tai_lieu": "Hợp đồng thế chấp quyền sử dụng đất và tài sản gắn liền với đất",
+      "file_ban_sach": "B1_HopDongBaoDam_TheChap.pdf",
+      "file_ban_scan": "B1_HopDongBaoDam_TheChap_scan.pdf",
+      "truong_du_lieu": {
+        "so_hop_dong": "2026/HĐBĐ/0456",
+        "ngay_ky": "20/08/2026",
+        "dia_diem_ky": "Văn phòng Công chứng Mẫu Thử, Thành phố Hồ Chí Minh",
+        "so_ban_hop_dong": "05",
+        "ben_the_chap": [
+          {
+            "ho_ten": "TRẦN VĂN MINH",
+            "ngay_sinh": "12/05/1985",
+            "so_cccd": "079085012345",
+            "ngay_cap_cccd": "10/03/2021",
+            "noi_thuong_tru": "Số 45 Nguyễn Trãi, Phường Bến Thành, Thành phố Hồ Chí Minh"
+          },
+          {
+            "ho_ten": "NGUYỄN THỊ LAN",
+            "ngay_sinh": "20/08/1987",
+            "so_cccd": "079187054321",
+            "ngay_cap_cccd": "15/04/2021",
+            "noi_thuong_tru": "Số 45 Nguyễn Trãi, Phường Bến Thành, Thành phố Hồ Chí Minh"
+          }
+        ],
+        "ben_nhan_the_chap": {
+          "ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN MẪU THỬ",
+          "dia_chi": "Tòa nhà Mẫu Thử, số 199 Điện Biên Phủ, Phường Đa Kao, Thành phố Hồ Chí Minh",
+          "ma_so_thue": "0300000000",
+          "nguoi_dai_dien": "PHẠM THỊ HỒNG",
+          "chuc_vu": "Giám đốc Phòng Giao dịch Bến Thành"
+        },
+        "tai_san_the_chap": {
+          "loai_tai_san": "Quyền sử dụng đất ở và tài sản gắn liền với đất",
+          "dia_chi_tai_san": "Số 45 Nguyễn Trãi, Phường Bến Thành, Quận 1, Thành phố Hồ Chí Minh",
+          "thua_dat_so": "123",
+          "to_ban_do_so": "45",
+          "dien_tich_dat_m2": "80,5",
+          "muc_dich_su_dung": "Đất ở tại đô thị",
+          "thoi_han_su_dung": "Lâu dài",
+          "so_phat_hanh_gcn": "CS 123456",
+          "so_vao_so_gcn": "CS 00123",
+          "ngay_cap_gcn": "05/06/2015",
+          "co_quan_cap_gcn": "Sở Tài nguyên và Môi trường Thành phố Hồ Chí Minh"
+        },
+        "tai_san_gan_lien_voi_dat": {
+          "loai": "Nhà ở riêng lẻ",
+          "so_tang": "01 trệt, 02 lầu",
+          "dien_tich_xay_dung": "65,0 m²",
+          "tong_dien_tich_san": "195,0 m²",
+          "nam_hoan_thanh": "2013"
+        },
+        "gia_tri_dinh_gia": {
+          "tong_bang_so": "5.200.000.000",
+          "tong_bang_chu": "Năm tỷ hai trăm triệu đồng",
+          "gia_tri_quyen_su_dung_dat": "4.300.000.000",
+          "gia_tri_tai_san_gan_lien": "900.000.000",
+          "ngay_dinh_gia": "01/08/2026",
+          "don_vi_dinh_gia": "Công ty TNHH Thẩm định giá Mẫu Thử",
+          "ty_le_cap_tin_dung": "67,3%"
+        },
+        "nghia_vu_duoc_bao_dam": {
+          "so_hop_dong_tin_dung": "2026/HĐTD/0456",
+          "ngay_hop_dong_tin_dung": "18/08/2026",
+          "so_tien_vay_bang_so": "3.500.000.000",
+          "so_tien_vay_bang_chu": "Ba tỷ năm trăm triệu đồng",
+          "muc_dich_vay": "Bổ sung vốn lưu động phục vụ hoạt động kinh doanh thương mại",
+          "thoi_han_vay": "60 tháng"
+        },
+        "cong_chung": {
+          "to_chuc_cong_chung": "VĂN PHÒNG CÔNG CHỨNG MẪU THỬ",
+          "dia_chi": "Số 12 Lê Lợi, Phường Bến Nghé, Thành phố Hồ Chí Minh",
+          "cong_chung_vien": "NGUYỄN VĂN BÌNH",
+          "so_cong_chung": "4567/2026/HĐBĐ",
+          "quyen_so": "Quyển số 05 TP/CC-SCC/HĐGD",
+          "ngay_cong_chung": "20/08/2026"
+        },
+        "so_dieu_khoan": 25,
+        "phu_luc": [
+          "Phụ lục 01 – Danh mục tài sản thế chấp",
+          "Phụ lục 02 – Lịch trả nợ gốc dự kiến (60 kỳ)"
+        ],
+        "lich_tra_no": {
+          "so_ky": 60,
+          "ky_dau_ngay": "25/09/2026",
+          "ky_cuoi_ngay": "25/08/2031",
+          "goc_moi_ky": "58.333.000",
+          "goc_ky_cuoi": "58.353.000",
+          "tong_goc": "3.500.000.000"
+        }
+      }
+    },
+    {
+      "ma": "B2",
+      "loai_tai_lieu": "PHIEU_YEU_CAU_DANG_KY_GDBD",
+      "ten_tai_lieu": "Phiếu yêu cầu đăng ký thế chấp",
+      "file_ban_sach": "B2_PhieuYeuCau_DangKyGiaoDichBaoDam.pdf",
+      "file_ban_scan": "B2_PhieuYeuCau_DangKyGiaoDichBaoDam_scan.pdf",
+      "truong_du_lieu": {
+        "co_quan_nhan": "Chi nhánh Văn phòng Đăng ký đất đai Khu vực 1 (tên giả định)",
+        "nguoi_yeu_cau_dang_ky": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN MẪU THỬ",
+        "ben_the_chap": [
+          {
+            "ho_ten": "TRẦN VĂN MINH",
+            "ngay_sinh": "12/05/1985",
+            "so_cccd": "079085012345",
+            "ngay_cap_cccd": "10/03/2021",
+            "noi_thuong_tru": "Số 45 Nguyễn Trãi, Phường Bến Thành, Thành phố Hồ Chí Minh"
+          },
+          {
+            "ho_ten": "NGUYỄN THỊ LAN",
+            "ngay_sinh": "20/08/1987",
+            "so_cccd": "079187054321",
+            "ngay_cap_cccd": "15/04/2021",
+            "noi_thuong_tru": "Số 45 Nguyễn Trãi, Phường Bến Thành, Thành phố Hồ Chí Minh"
+          }
+        ],
+        "ben_nhan_the_chap": {
+          "ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN MẪU THỬ",
+          "dia_chi": "Tòa nhà Mẫu Thử, số 199 Điện Biên Phủ, Phường Đa Kao, Thành phố Hồ Chí Minh",
+          "ma_so_thue": "0300000000",
+          "nguoi_dai_dien": "PHẠM THỊ HỒNG",
+          "chuc_vu": "Giám đốc Phòng Giao dịch Bến Thành"
+        },
+        "tai_san_bao_dam": {
+          "loai_tai_san": "Quyền sử dụng đất ở và tài sản gắn liền với đất",
+          "dia_chi_tai_san": "Số 45 Nguyễn Trãi, Phường Bến Thành, Quận 1, Thành phố Hồ Chí Minh",
+          "thua_dat_so": "123",
+          "to_ban_do_so": "45",
+          "dien_tich_dat_m2": "80,5",
+          "muc_dich_su_dung": "Đất ở tại đô thị",
+          "thoi_han_su_dung": "Lâu dài",
+          "so_phat_hanh_gcn": "CS 123456",
+          "so_vao_so_gcn": "CS 00123",
+          "ngay_cap_gcn": "05/06/2015",
+          "co_quan_cap_gcn": "Sở Tài nguyên và Môi trường Thành phố Hồ Chí Minh"
+        },
+        "hop_dong_bao_dam": {
+          "so_hop_dong": "2026/HĐBĐ/0456",
+          "ngay_ky": "20/08/2026",
+          "so_cong_chung": "4567/2026/HĐBĐ",
+          "quyen_so": "Quyển số 05 TP/CC-SCC/HĐGD",
+          "to_chuc_cong_chung": "VĂN PHÒNG CÔNG CHỨNG MẪU THỬ",
+          "cong_chung_vien": "NGUYỄN VĂN BÌNH",
+          "ngay_cong_chung": "20/08/2026"
+        },
+        "noi_dung_dang_ky": "Đăng ký thế chấp lần đầu quyền sử dụng đất và tài sản gắn liền với đất",
+        "nguoi_nhan_ket_qua": "LÊ QUỐC ANH",
+        "so_luong_tai_lieu_kem_theo": 6,
+        "phan_ghi_cua_co_quan_dang_ky": {
+          "so_vao_so_tiep_nhan": "20260820-0456",
+          "thoi_diem_tiep_nhan": "09 giờ 15 phút, ngày 20/08/2026",
+          "thoi_diem_dang_ky": "14 giờ 30 phút, ngày 21/08/2026",
+          "ma_tai_san_bao_dam": "TSBD-2026-004567",
+          "can_bo_tiep_nhan": "ĐỖ THỊ KIM NGÂN",
+          "thu_truong_co_quan": "TRẦN QUỐC BẢO"
+        }
+      }
+    },
+    {
+      "ma": "B3",
+      "loai_tai_lieu": "BIEN_BAN_THOA_THUAN_GIA_TRI_TSBD",
+      "ten_tai_lieu": "Biên bản thỏa thuận giá trị tài sản thế chấp",
+      "file_ban_sach": "B3_BienBan_ThoaThuanGiaTriTaiSan.pdf",
+      "file_ban_scan": "B3_BienBan_ThoaThuanGiaTriTaiSan_scan.pdf",
+      "truong_du_lieu": {
+        "so_bien_ban": "2026/HĐBĐ/0456/BB-GTTS",
+        "ngay_lap": "01/08/2026",
+        "ben_the_chap": [
+          {
+            "ho_ten": "TRẦN VĂN MINH",
+            "ngay_sinh": "12/05/1985",
+            "so_cccd": "079085012345",
+            "ngay_cap_cccd": "10/03/2021",
+            "noi_thuong_tru": "Số 45 Nguyễn Trãi, Phường Bến Thành, Thành phố Hồ Chí Minh"
+          },
+          {
+            "ho_ten": "NGUYỄN THỊ LAN",
+            "ngay_sinh": "20/08/1987",
+            "so_cccd": "079187054321",
+            "ngay_cap_cccd": "15/04/2021",
+            "noi_thuong_tru": "Số 45 Nguyễn Trãi, Phường Bến Thành, Thành phố Hồ Chí Minh"
+          }
+        ],
+        "ben_nhan_the_chap": {
+          "ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN MẪU THỬ",
+          "dia_chi": "Tòa nhà Mẫu Thử, số 199 Điện Biên Phủ, Phường Đa Kao, Thành phố Hồ Chí Minh",
+          "ma_so_thue": "0300000000",
+          "nguoi_dai_dien": "PHẠM THỊ HỒNG",
+          "chuc_vu": "Giám đốc Phòng Giao dịch Bến Thành"
+        },
+        "don_vi_dinh_gia": "Công ty TNHH Thẩm định giá Mẫu Thử",
+        "chung_thu_tham_dinh_gia": "Chứng thư thẩm định giá số 268/2026/CT-TĐGMT ngày 01/08/2026",
+        "tai_san_dinh_gia": {
+          "loai_tai_san": "Quyền sử dụng đất ở và tài sản gắn liền với đất",
+          "dia_chi_tai_san": "Số 45 Nguyễn Trãi, Phường Bến Thành, Quận 1, Thành phố Hồ Chí Minh",
+          "thua_dat_so": "123",
+          "to_ban_do_so": "45",
+          "dien_tich_dat_m2": "80,5",
+          "muc_dich_su_dung": "Đất ở tại đô thị",
+          "thoi_han_su_dung": "Lâu dài",
+          "so_phat_hanh_gcn": "CS 123456",
+          "so_vao_so_gcn": "CS 00123",
+          "ngay_cap_gcn": "05/06/2015",
+          "co_quan_cap_gcn": "Sở Tài nguyên và Môi trường Thành phố Hồ Chí Minh"
+        },
+        "ket_qua_dinh_gia": {
+          "gia_tri_quyen_su_dung_dat": "4.300.000.000",
+          "don_gia_dat_moi_m2": "53.416.149",
+          "gia_tri_nha_o": "900.000.000",
+          "don_gia_nha_moi_m2_san": "4.615.385",
+          "tong_gia_tri_bang_so": "5.200.000.000",
+          "tong_gia_tri_bang_chu": "Năm tỷ hai trăm triệu đồng"
+        },
+        "muc_cap_tin_dung_toi_da": "3.500.000.000",
+        "ty_le_cap_tin_dung": "67,3%",
+        "so_ban_lap": "04"
+      }
+    },
+    {
+      "ma": "B4",
+      "loai_tai_lieu": "THOA_THUAN_KHUNG",
+      "ten_tai_lieu": "Thỏa thuận khung về cấp tín dụng",
+      "file_ban_sach": "B4_ThoaThuanKhung_CapTinDung.pdf",
+      "file_ban_scan": "B4_ThoaThuanKhung_CapTinDung_scan.pdf",
+      "truong_du_lieu": {
+        "so_thoa_thuan": "2026/TTK/0456",
+        "ngay_ky": "18/08/2026",
+        "ben_cap_tin_dung": {
+          "ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN MẪU THỬ",
+          "dia_chi": "Tòa nhà Mẫu Thử, số 199 Điện Biên Phủ, Phường Đa Kao, Thành phố Hồ Chí Minh",
+          "ma_so_thue": "0300000000",
+          "nguoi_dai_dien": "PHẠM THỊ HỒNG",
+          "chuc_vu": "Giám đốc Phòng Giao dịch Bến Thành"
+        },
+        "ben_duoc_cap_tin_dung": {
+          "ho_ten": "TRẦN VĂN MINH",
+          "ngay_sinh": "12/05/1985",
+          "so_cccd": "079085012345",
+          "noi_thuong_tru": "Số 45 Nguyễn Trãi, Phường Bến Thành, Thành phố Hồ Chí Minh",
+          "dien_thoai": "0909 123 456",
+          "email": "tranvanminh.mau@example.com"
+        },
+        "han_muc_bang_so": "3.500.000.000",
+        "han_muc_bang_chu": "Ba tỷ năm trăm triệu đồng",
+        "thoi_han_hieu_luc": "12 tháng kể từ ngày ký",
+        "muc_dich_su_dung_von": "Bổ sung vốn lưu động phục vụ hoạt động kinh doanh thương mại",
+        "lai_suat": "Lãi suất thả nổi, điều chỉnh định kỳ 03 tháng/lần, bằng lãi suất tiết kiệm 13 tháng trả lãi cuối kỳ của Ngân hàng cộng biên độ 3,5%/năm",
+        "lai_suat_qua_han": "150% lãi suất trong hạn tại thời điểm chuyển nợ quá hạn",
+        "lai_cham_tra": "10%/năm trên số tiền lãi chậm trả",
+        "co_so_tinh_lai": "365 ngày/năm, trên dư nợ thực tế",
+        "tai_san_bao_dam_dan_chieu": {
+          "so_hop_dong_the_chap": "2026/HĐBĐ/0456",
+          "ngay": "20/08/2026",
+          "so_cong_chung": "4567/2026/HĐBĐ"
+        },
+        "so_dieu_khoan": 11,
+        "so_ban_lap": "03"
+      }
+    },
+    {
+      "ma": "B5",
+      "loai_tai_lieu": "BIEN_BAN_GIAO_NHAN_TSBD",
+      "ten_tai_lieu": "Biên bản giao nhận hồ sơ tài sản bảo đảm",
+      "file_ban_sach": "B5_BienBan_GiaoNhanTaiSan.pdf",
+      "file_ban_scan": "B5_BienBan_GiaoNhanTaiSan_scan.pdf",
+      "truong_du_lieu": {
+        "so_bien_ban": "2026/HĐBĐ/0456/BB-GN",
+        "ngay_lap": "20/08/2026",
+        "ben_giao": [
+          {
+            "ho_ten": "TRẦN VĂN MINH",
+            "ngay_sinh": "12/05/1985",
+            "so_cccd": "079085012345",
+            "ngay_cap_cccd": "10/03/2021",
+            "noi_thuong_tru": "Số 45 Nguyễn Trãi, Phường Bến Thành, Thành phố Hồ Chí Minh"
+          },
+          {
+            "ho_ten": "NGUYỄN THỊ LAN",
+            "ngay_sinh": "20/08/1987",
+            "so_cccd": "079187054321",
+            "ngay_cap_cccd": "15/04/2021",
+            "noi_thuong_tru": "Số 45 Nguyễn Trãi, Phường Bến Thành, Thành phố Hồ Chí Minh"
+          }
+        ],
+        "ben_nhan": {
+          "ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN MẪU THỬ",
+          "don_vi": "Chi nhánh Mẫu Thử – Phòng Giao dịch Bến Thành",
+          "nguoi_dai_dien": "LÊ QUỐC ANH",
+          "chuc_danh": "Cán bộ pháp lý chứng từ"
+        },
+        "nguoi_chung_kien": "ĐỖ THỊ KIM NGÂN",
+        "danh_muc_ban_giao": [
+          {
+            "stt": 1,
+            "ten": "Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất",
+            "loai_ban": "Bản chính",
+            "so_luong": "01"
+          },
+          {
+            "stt": 2,
+            "ten": "Hợp đồng thế chấp quyền sử dụng đất và tài sản gắn liền với đất",
+            "loai_ban": "Bản chính",
+            "so_luong": "02"
+          },
+          {
+            "stt": 3,
+            "ten": "Biên bản thỏa thuận giá trị tài sản thế chấp",
+            "loai_ban": "Bản chính",
+            "so_luong": "01"
+          },
+          {
+            "stt": 4,
+            "ten": "Chứng thư thẩm định giá",
+            "loai_ban": "Bản chính",
+            "so_luong": "01"
+          },
+          {
+            "stt": 5,
+            "ten": "Giấy chứng nhận kết hôn",
+            "loai_ban": "Bản sao chứng thực",
+            "so_luong": "01"
+          },
+          {
+            "stt": 6,
+            "ten": "Căn cước công dân của bên thế chấp",
+            "loai_ban": "Bản sao chứng thực",
+            "so_luong": "02"
+          },
+          {
+            "stt": 7,
+            "ten": "Căn cước công dân (bản chính) – đối chiếu tại chỗ",
+            "loai_ban": "Bản chính",
+            "so_luong": "02"
+          },
+          {
+            "stt": 8,
+            "ten": "Hợp đồng bảo hiểm tài sản",
+            "loai_ban": "Bản chính",
+            "so_luong": "01"
+          }
+        ],
+        "tong_so_loai_luu_giu": 7,
+        "tong_so_ban_luu_giu": 9,
+        "hop_dong_bao_hiem": {
+          "so": "2026/BH/0456",
+          "ngay": "19/08/2026",
+          "nguoi_thu_huong": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN MẪU THỬ"
+        },
+        "phu_luc_doi_chieu": {
+          "tong_chi_tieu": 13,
+          "so_chi_tieu_khop": 12,
+          "ket_luan": "Hồ sơ đủ điều kiện chuyển bước tiếp theo"
+        },
+        "nhap_kho": {
+          "ma_ho_so": "TSBD-2026-004567",
+          "ngay_nhap_kho": "20/08/2026",
+          "gio_nhap_kho": "16 giờ 40 phút",
+          "vi_tri_luu_tru": "Kho tài sản bảo đảm – Tủ số 07, Ngăn B, Hộp 021",
+          "can_bo_nhap_kho": "ĐỖ THỊ KIM NGÂN",
+          "kiem_soat_vien": "VÕ HOÀI NAM"
+        }
+      }
+    },
+    {
+      "ma": "B6",
+      "loai_tai_lieu": "VAN_BAN_CAM_KET",
+      "ten_tai_lieu": "Văn bản cam kết",
+      "file_ban_sach": "B6_VanBanCamKet.pdf",
+      "file_ban_scan": "B6_VanBanCamKet_scan.pdf",
+      "truong_du_lieu": {
+        "so_van_ban": "2026/HĐBĐ/0456/CK",
+        "ngay_lap": "20/08/2026",
+        "nguoi_cam_ket": [
+          {
+            "ho_ten": "TRẦN VĂN MINH",
+            "ngay_sinh": "12/05/1985",
+            "so_cccd": "079085012345",
+            "ngay_cap_cccd": "10/03/2021",
+            "noi_thuong_tru": "Số 45 Nguyễn Trãi, Phường Bến Thành, Thành phố Hồ Chí Minh"
+          },
+          {
+            "ho_ten": "NGUYỄN THỊ LAN",
+            "ngay_sinh": "20/08/1987",
+            "so_cccd": "079187054321",
+            "ngay_cap_cccd": "15/04/2021",
+            "noi_thuong_tru": "Số 45 Nguyễn Trãi, Phường Bến Thành, Thành phố Hồ Chí Minh"
+          }
+        ],
+        "gui_den": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN MẪU THỬ – Chi nhánh Mẫu Thử – Phòng Giao dịch Bến Thành",
+        "dan_chieu": {
+          "so_hop_dong_tin_dung": "2026/HĐTD/0456",
+          "ngay_hop_dong_tin_dung": "18/08/2026",
+          "so_hop_dong_the_chap": "2026/HĐBĐ/0456",
+          "ngay_hop_dong_the_chap": "20/08/2026"
+        },
+        "so_tien_vay_bang_so": "3.500.000.000",
+        "so_tien_vay_bang_chu": "Ba tỷ năm trăm triệu đồng",
+        "muc_dich_su_dung_von": "Bổ sung vốn lưu động phục vụ hoạt động kinh doanh thương mại",
+        "nguon_tra_no": [
+          {
+            "stt": 1,
+            "nguon": "Doanh thu hoạt động kinh doanh thương mại",
+            "tinh_chat": "Nguồn chính",
+            "so_tien_thang": "180.000.000"
+          },
+          {
+            "stt": 2,
+            "nguon": "Thu nhập từ cho thuê mặt bằng",
+            "tinh_chat": "Nguồn dự phòng",
+            "so_tien_thang": "22.000.000"
+          },
+          {
+            "stt": 3,
+            "nguon": "Lãi tiền gửi tiết kiệm",
+            "tinh_chat": "Nguồn dự phòng",
+            "so_tien_thang": "3.500.000"
+          }
+        ],
+        "tong_nguon_thu_binh_quan_thang": "205.500.000",
+        "nghia_vu_tra_no_binh_quan_thang": "85.000.000",
+        "so_luong_ho_so_nop_kem": 6,
+        "so_dieu_khoan": 8,
+        "so_ban_lap": "03"
+      }
+    }
+  ],
+  "bundle": {
+    "file": "BUNDLE_HoSoCongChung_ScanCaXap.pdf",
+    "tong_so_trang": 34,
+    "ghi_chu": "Mô phỏng cán bộ scan cả xấp hồ sơ thành một file: thứ tự tài liệu bị đảo, có trang bị scan ngược 180°. Dùng để kiểm thử năng lực phân loại và tách tài liệu trước khi bóc trường.",
+    "trang_bi_xoay_180": [
+      11,
+      15,
+      22
+    ],
+    "phan_doan_tai_lieu": [
+      {
+        "ma_tai_lieu": "B3",
+        "loai_tai_lieu": "BIEN_BAN_THOA_THUAN_GIA_TRI_TSBD",
+        "ten_tai_lieu": "Biên bản thỏa thuận giá trị tài sản thế chấp",
+        "tu_trang": 1,
+        "den_trang": 2,
+        "so_trang": 2
+      },
+      {
+        "ma_tai_lieu": "B5",
+        "loai_tai_lieu": "BIEN_BAN_GIAO_NHAN_TSBD",
+        "ten_tai_lieu": "Biên bản giao nhận hồ sơ tài sản bảo đảm",
+        "tu_trang": 3,
+        "den_trang": 6,
+        "so_trang": 4
+      },
+      {
+        "ma_tai_lieu": "B4",
+        "loai_tai_lieu": "THOA_THUAN_KHUNG",
+        "ten_tai_lieu": "Thỏa thuận khung về cấp tín dụng",
+        "tu_trang": 7,
+        "den_trang": 10,
+        "so_trang": 4
+      },
+      {
+        "ma_tai_lieu": "B6",
+        "loai_tai_lieu": "VAN_BAN_CAM_KET",
+        "ten_tai_lieu": "Văn bản cam kết",
+        "tu_trang": 11,
+        "den_trang": 14,
+        "so_trang": 4
+      },
+      {
+        "ma_tai_lieu": "B2",
+        "loai_tai_lieu": "PHIEU_YEU_CAU_DANG_KY_GDBD",
+        "ten_tai_lieu": "Phiếu yêu cầu đăng ký thế chấp",
+        "tu_trang": 15,
+        "den_trang": 18,
+        "so_trang": 4
+      },
+      {
+        "ma_tai_lieu": "B1",
+        "loai_tai_lieu": "HOP_DONG_BAO_DAM",
+        "ten_tai_lieu": "Hợp đồng thế chấp quyền sử dụng đất và tài sản gắn liền với đất",
+        "tu_trang": 19,
+        "den_trang": 34,
+        "so_trang": 16
+      }
+    ]
+  }
+}
