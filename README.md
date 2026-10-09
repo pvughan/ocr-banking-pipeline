@@ -1,4 +1,4 @@
-# 🏦 AI Banking Document OCR & Information Extraction Pipeline
+# AI Banking Document OCR & Information Extraction Pipeline
 ### *Hệ Thống Trích Xuất Dữ Liệu Tài Liệu Ngân Hàng Tự Động Bằng Pipeline Tesseract + Qwen2-VL (Offline / CPU-Only)*
 
 [![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11-3776AB?logo=python&logoColor=white)](https://www.python.org/)
@@ -10,7 +10,7 @@
 
 ---
 
-## 📌 1. Bối Cảnh & Mục Tiêu Dự Án
+## 1. Bối Cảnh & Mục Tiêu Dự Án
 
 Trong nghiệp vụ ngân hàng và tài chính, hàng nghìn hồ sơ pháp lý (hợp đồng thế chấp, phiếu đăng ký giao dịch bảo đảm, thỏa thuận tín dụng, biên bản bàn giao...) được tiếp nhận mỗi ngày dưới dạng bản quét (scan) hoặc ảnh chụp điện thoại. Các tài liệu này gặp phải các thách thức lớn:
 - **Chất lượng không đồng nhất:** Nghiêng, méo, bóng mép gáy sách, tem đỏ/dấu mộc đè chữ, chữ viết tay xen lẫn chữ in.
@@ -20,7 +20,7 @@ Dự án này xây dựng một **Intelligent Document Processing (IDP) Pipeline
 
 ---
 
-## 🏗️ 2. Kiến Trúc Hệ Thống (Architecture)
+## 2. Kiến Trúc Hệ Thống (Architecture)
 
 ```mermaid
 flowchart TD
@@ -40,7 +40,7 @@ flowchart TD
 
 ---
 
-## 💡 3. Các Quyết Định Thiết Kế Nổi Bật (Key Engineering Highlights)
+## 3. Các Quyết Định Thiết Kế Nổi Bật (Key Engineering Highlights)
 
 ### 3.1. Chiến Lược Hợp Nhất (Fusion Engine - 15 Điểm)
 Hệ thống triển khai 2 chiến lược song song theo đúng đặc tả Mục 5.5:
@@ -60,7 +60,7 @@ Hệ thống triển khai 2 chiến lược song song theo đúng đặc tả M�
 
 ---
 
-## 📁 4. Cấu Trúc Thư Mục Dự Án
+## 4. Cấu Trúc Thư Mục Dự Án
 
 ```
 ocr-pipeline/
@@ -87,7 +87,7 @@ ocr-pipeline/
 
 ---
 
-## 🚀 5. Hướng Dẫn Cài Đặt & Khởi Chạy
+## 5. Hướng Dẫn Cài Đặt & Khởi Chạy
 
 ### Cách 1: Khởi chạy bằng Docker (1 Lệnh Duy Nhất - Khuyến nghị cho Giám Khảo)
 
@@ -126,7 +126,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🖥️ 6. Hướng Dẫn Sử Dụng Chi Tiết
+## 6. Hướng Dẫn Sử Dụng Chi Tiết
 
 ### 6.1. Giao Diện Web Dashboard (Streamlit UI)
 Chạy lệnh:
@@ -167,7 +167,7 @@ Hệ thống sẽ tự động tính toán và xuất báo cáo:
 
 ---
 
-## 📊 7. Đặc Tả Định Dạng Chuẩn
+## 7. Đặc Tả Định Dạng Chuẩn
 
 ### 7.1. Định dạng Output Excel (Mục 4.3 - Bắt buộc)
 Mỗi tài liệu xuất ra một file Excel gồm 3 sheet:
@@ -187,13 +187,13 @@ Mỗi tài liệu xuất ra một file Excel gồm 3 sheet:
 
 ---
 
-## ⚙️ 8. Ghi Chú Về Hiệu Năng Phần Cứng (Hardware & Latency Justification)
+## 8. Ghi Chú Về Hiệu Năng Phần Cứng (Hardware & Latency Justification)
 
 - **Chế độ CPU-Only:** Toàn bộ pipeline được tối ưu hóa cho CPU tiêu chuẩn (sử dụng `torch.float32`, đa luồng `torch.set_num_threads`, và kỹ thuật thu nhỏ ảnh trang `thumbnail` cho vision encoder) nhằm đáp ứng yêu cầu không phụ thuộc GPU của đề bài.
 - **Khả năng mở rộng (Production Scalability):** Trong môi trường doanh nghiệp có trang bị GPU (NVIDIA T4 / A10G), việc chuyển đổi sang vLLM / Ollama chỉ yêu cầu đổi cấu hình `device="cuda"` trong `config.py`, giúp giảm thời gian suy luận từ ~40s/trang xuống dưới 1.5s/trang.
 
 ---
 
-## 👨‍💻 Tác Giả & Cam Kết
+## Tác Giả & Cam Kết
 - **Đồ án:** OCR-PIPELINE-2026 — Xây dựng ứng dụng OCR tài liệu ngân hàng.
 - **Cam kết:** 100% mã nguồn mở, không sử dụng bất kỳ Cloud API thương mại nào, dữ liệu được xử lý an toàn và cục bộ trên thiết bị.
