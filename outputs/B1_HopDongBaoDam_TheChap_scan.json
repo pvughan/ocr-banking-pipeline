@@ -1,0 +1,594 @@
+{
+  "document": "B1_HopDongBaoDam_TheChap_scan.pdf",
+  "template": "B1_HopDongTheChap",
+  "pipeline_version": "1.0.0",
+  "prompt_version": "qwen_extract_v1.0.0",
+  "fields": {
+    "so_hop_dong": {
+      "value": "2026/HĐBĐ/0456",
+      "confidence": 0.97,
+      "source": "fused",
+      "page": 1,
+      "bbox": [
+        406,
+        2243,
+        605,
+        2262
+      ],
+      "validation_status": "ok",
+      "needs_review": true
+    },
+    "ngay_ky": {
+      "value": "18/08/2026",
+      "confidence": 0.999,
+      "source": "fused",
+      "page": 1,
+      "bbox": [
+        966,
+        1015,
+        1122,
+        1039
+      ],
+      "validation_status": "ok",
+      "needs_review": false
+    },
+    "dia_diem_ky": {
+      "value": "liệu.",
+      "confidence": 0.73,
+      "source": "tesseract",
+      "page": 1,
+      "bbox": [
+        885,
+        557,
+        929,
+        579
+      ],
+      "validation_status": "ok",
+      "needs_review": true
+    },
+    "so_ban_hop_dong": {
+      "value": "15",
+      "confidence": 0.75,
+      "source": "tesseract",
+      "page": 2,
+      "bbox": [
+        1115,
+        1646,
+        1146,
+        1668
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "ben_the_chap": {
+      "value": "",
+      "confidence": 0.0,
+      "source": "fused",
+      "page": null,
+      "bbox": null,
+      "validation_status": "missing",
+      "needs_review": true
+    },
+    "ben_nhan_ten": {
+      "value": "(sau Đây Gọi Là \"bên A\" Hoặc \"ngân Hàng\"):",
+      "confidence": 0.668,
+      "source": "tesseract",
+      "page": 1,
+      "bbox": [
+        561,
+        1372,
+        1270,
+        1404
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "ben_nhan_dia_chi": {
+      "value": "quy định",
+      "confidence": 0.559,
+      "source": "tesseract",
+      "page": 3,
+      "bbox": [
+        1357,
+        198,
+        1480,
+        228
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "ben_nhan_ma_so_thue": {
+      "value": "0300000000",
+      "confidence": 0.75,
+      "source": "tesseract",
+      "page": 1,
+      "bbox": [
+        535,
+        1710,
+        693,
+        1731
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "ben_nhan_nguoi_dai_dien": {
+      "value": "' Bà Phạm Thị Hồng - Chức Vũ: Giám Đốc Phòng Giao Dịch Bến Thành",
+      "confidence": 0.75,
+      "source": "tesseract",
+      "page": 1,
+      "bbox": [
+        519,
+        1840,
+        1436,
+        1873
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "ben_nhan_chuc_vu": {
+      "value": "Giám đốc Phòng Giao dịch Bến Thành",
+      "confidence": 0.75,
+      "source": "tesseract",
+      "page": 1,
+      "bbox": [
+        956,
+        1844,
+        1436,
+        1873
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "dia_chi_tai_san": {
+      "value": "quy định",
+      "confidence": 0.75,
+      "source": "tesseract",
+      "page": 3,
+      "bbox": [
+        1357,
+        198,
+        1480,
+        228
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "thua_dat_so": {
+      "value": "45",
+      "confidence": 0.75,
+      "source": "tesseract",
+      "page": 3,
+      "bbox": [
+        574,
+        848,
+        605,
+        869
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "to_ban_do_so": {
+      "value": "45",
+      "confidence": 0.596,
+      "source": "tesseract",
+      "page": 3,
+      "bbox": [
+        519,
+        797,
+        565,
+        817
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "dien_tich_dat_m2": {
+      "value": "195,0",
+      "confidence": 0.75,
+      "source": "tesseract",
+      "page": 3,
+      "bbox": [
+        536,
+        1443,
+        604,
+        1466
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "muc_dich_su_dung": {
+      "value": "¡ Đất ở tại đô thị |",
+      "confidence": 0.75,
+      "source": "tesseract",
+      "page": 3,
+      "bbox": [
+        519,
+        983,
+        1498,
+        1017
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "thoi_han_su_dung": {
+      "value": "Lâu dài |",
+      "confidence": 0.75,
+      "source": "tesseract",
+      "page": 3,
+      "bbox": [
+        535,
+        1035,
+        1497,
+        1058
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "so_phat_hanh_gcn": {
+      "value": "CS 123456",
+      "confidence": 0.75,
+      "source": "tesseract",
+      "page": 3,
+      "bbox": [
+        534,
+        1730,
+        671,
+        1751
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "so_vao_so_gcn": {
+      "value": "CS 00123",
+      "confidence": 0.75,
+      "source": "tesseract",
+      "page": 3,
+      "bbox": [
+        533,
+        1781,
+        655,
+        1802
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "ngay_cap_gcn": {
+      "value": "05/06/2015",
+      "confidence": 0.75,
+      "source": "tesseract",
+      "page": 3,
+      "bbox": [
+        533,
+        1833,
+        675,
+        1855
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "co_quan_cap_gcn": {
+      "value": "Sở Tài nguyên và Môi trường Thành phố Hồ Chí Minh",
+      "confidence": 0.75,
+      "source": "tesseract",
+      "page": 3,
+      "bbox": [
+        534,
+        1882,
+        1213,
+        1911
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "loai_nha": {
+      "value": "",
+      "confidence": 0.0,
+      "source": "fused",
+      "page": null,
+      "bbox": null,
+      "validation_status": "missing",
+      "needs_review": false
+    },
+    "dien_tich_xay_dung": {
+      "value": "65,0",
+      "confidence": 0.75,
+      "source": "tesseract",
+      "page": 3,
+      "bbox": [
+        534,
+        1392,
+        588,
+        1415
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "tong_dien_tich_san": {
+      "value": "195,0",
+      "confidence": 0.75,
+      "source": "tesseract",
+      "page": 3,
+      "bbox": [
+        536,
+        1443,
+        604,
+        1466
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "gia_tri_dinh_gia_bang_so": {
+      "value": "900000000",
+      "confidence": 0.75,
+      "source": "tesseract",
+      "page": 4,
+      "bbox": [
+        683,
+        678,
+        857,
+        700
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "gia_tri_dinh_gia_bang_chu": {
+      "value": "Năm tỷ hai trăm triệu đồng), trong đỗ:",
+      "confidence": 0.75,
+      "source": "tesseract",
+      "page": 4,
+      "bbox": [
+        652,
+        571,
+        1193,
+        603
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "gia_tri_quyen_su_dung_dat": {
+      "value": "123456",
+      "confidence": 0.75,
+      "source": "tesseract",
+      "page": 3,
+      "bbox": [
+        580,
+        1730,
+        671,
+        1751
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "gia_tri_tai_san_gan_lien": {
+      "value": "900000000",
+      "confidence": 0.75,
+      "source": "tesseract",
+      "page": 4,
+      "bbox": [
+        683,
+        678,
+        857,
+        700
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "ngay_dinh_gia": {
+      "value": "",
+      "confidence": 0.0,
+      "source": "fused",
+      "page": null,
+      "bbox": null,
+      "validation_status": "missing",
+      "needs_review": true
+    },
+    "don_vi_dinh_gia": {
+      "value": "",
+      "confidence": 0.0,
+      "source": "fused",
+      "page": null,
+      "bbox": null,
+      "validation_status": "missing",
+      "needs_review": true
+    },
+    "so_hop_dong_tin_dung": {
+      "value": "2026/HĐBĐ/0456",
+      "confidence": 0.75,
+      "source": "tesseract",
+      "page": 4,
+      "bbox": [
+        406,
+        2244,
+        605,
+        2262
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "ngay_hop_dong_tin_dung": {
+      "value": "05/06/2015",
+      "confidence": 0.75,
+      "source": "tesseract",
+      "page": 3,
+      "bbox": [
+        533,
+        1833,
+        675,
+        1855
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "so_tien_vay_bang_so": {
+      "value": "3500000000",
+      "confidence": 0.873,
+      "source": "tesseract",
+      "page": 13,
+      "bbox": [
+        352,
+        370,
+        554,
+        393
+      ],
+      "validation_status": "ok",
+      "needs_review": true
+    },
+    "so_tien_vay_bang_chu": {
+      "value": "Năm tỷ hai trăm triệu đồng), trong đỗ:",
+      "confidence": 0.75,
+      "source": "tesseract",
+      "page": 4,
+      "bbox": [
+        652,
+        571,
+        1193,
+        603
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "muc_dich_vay": {
+      "value": "vốn Bổ sung vốn lưu động phục vũ hoạt động kinh doanh thương mại |",
+      "confidence": 0.75,
+      "source": "tesseract",
+      "page": 4,
+      "bbox": [
+        364,
+        1430,
+        1498,
+        1480
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "thoi_han_vay": {
+      "value": "Ngân hàng có quyền yêu cầu cơ quận nhà",
+      "confidence": 0.75,
+      "source": "tesseract",
+      "page": 8,
+      "bbox": [
+        877,
+        949,
+        1479,
+        980
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "to_chuc_cong_chung": {
+      "value": "Mẫu Thử, Thành Phố Hồ Chí Minh,",
+      "confidence": 0.75,
+      "source": "tesseract",
+      "page": 1,
+      "bbox": [
+        976,
+        1270,
+        1477,
+        1301
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "cong_chung_vien": {
+      "value": "Được Lập Thành 05 (năm) Bản.",
+      "confidence": 0.75,
+      "source": "tesseract",
+      "page": 16,
+      "bbox": [
+        251,
+        1230,
+        664,
+        1262
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "so_cong_chung": {
+      "value": "4567/2026/HĐBĐ",
+      "confidence": 0.75,
+      "source": "tesseract",
+      "page": 16,
+      "bbox": [
+        533,
+        522,
+        757,
+        559
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "quyen_so": {
+      "value": "hữu, quyền sử dụng hợp pháp của mình để",
+      "confidence": 0.75,
+      "source": "tesseract",
+      "page": 3,
+      "bbox": [
+        863,
+        583,
+        1480,
+        615
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "ngay_cong_chung": {
+      "value": "20/08/2026",
+      "confidence": 0.75,
+      "source": "tesseract",
+      "page": 16,
+      "bbox": [
+        534,
+        631,
+        676,
+        653
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "so_dieu_khoan": {
+      "value": "4",
+      "confidence": 0.75,
+      "source": "tesseract",
+      "page": 2,
+      "bbox": [
+        499,
+        1461,
+        515,
+        1483
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "lich_tra_no_ky_dau_ngay": {
+      "value": "25/09/2026",
+      "confidence": 0.7,
+      "source": "qwen",
+      "page": 13,
+      "bbox": null,
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "lich_tra_no_ky_cuoi_ngay": {
+      "value": "25/09/2026",
+      "confidence": 0.7,
+      "source": "qwen",
+      "page": 13,
+      "bbox": null,
+      "validation_status": "warning",
+      "needs_review": true
+    },
+    "lich_tra_no_tong_goc": {
+      "value": "2013",
+      "confidence": 0.75,
+      "source": "tesseract",
+      "page": 12,
+      "bbox": [
+        820,
+        695,
+        881,
+        716
+      ],
+      "validation_status": "warning",
+      "needs_review": true
+    }
+  }
+}
